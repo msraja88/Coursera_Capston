@@ -1,0 +1,545 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-IN link="#0563C1" vlink="#954F72">
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:24.0pt;line-height:107%'>Exploring Toronto Neighborhoods - To<br>
+ open a new Indian Restaurant</span></b></p>
+
+<p class=MsoNormal><b><span lang=EN-US>&nbsp;</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:12.0pt;line-height:107%'>Rajasekar Manokaran<br>
+ <br>
+June 1, 2020</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:18.0pt;line-height:107%'>Introduction</span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-US>As a part of IBM
+Data Science professional certification Capstone Project, we have to work on
+the real data to get an experience of what a data scientist go through in real
+life. I would like to explore the city Toronto and the objectives of this
+assignments is to define a business problem, find data in the web and, use
+Foursquare location data to compare different neighborhoods of Toronto to
+figure out which neighborhood is suitable for starting a new restaurant
+business. I go through all the process in a step by step manner from Business
+problem, data preparation to final analysis and finally will provide a
+conclusion that can be leveraged by the business stakeholders to make their
+decisions.</span></p>
+
+<p class=MsoListParagraph style='margin-left:18.0pt;text-indent:-18.0pt'><b><span
+lang=EN-US style='font-size:18.0pt;line-height:107%'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></b><b><span lang=EN-US style='font-size:18.0pt;line-height:107%'>Description
+of the Problem</span></b></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-size:14.0pt;line-height:
+107%'>Problem Statement: </span></b><span lang=EN-US>Prospects of opening an
+Indian Restaurant in Toronto, Canada<b>.</b></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-US>Toronto, the
+capital of the province of Ontario, is the most widespread Canadian city. Its
+diversity is reflected in Toronto’s ethnic neighborhoods such as Chinatown,
+Corso Italia, Greektown, Kensington Market, Koreatown, Little India, Little
+Italy, Little Jamaica, Little Portugal &amp; Roncesvalles. One of the most
+immigrant-friendly cities in Canada with more than half of the entire Indian
+Canadian population be located in Toronto. it might be one of the best places
+to start an Indian restaurant. In this project we will go through step by step
+process to decide whether it is a good idea to open an Indian restaurant. We
+analyze the neighborhoods in Toronto to identify the most profitable area since
+the success of the restaurant depends on the people and ambience. Since we
+already know that Toronto shelter a greater number of Indians than any other
+city in Canada, it is a good idea to start the restaurant here. Let us analyze
+and explore whether it is a profitable idea or not. If profitable in which place,
+we can start the restaurant, so that it gets more profit to the owner.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US>Target Audience </span></b></p>
+
+<p class=MsoNormal><span lang=EN-US>Who will be more interested in this
+project? What type of clients or a group of people would be benefitted? </span></p>
+
+<p class=MsoListParagraphCxSpFirst><span lang=EN-US>1. Business personnel who
+wants to invest or open an Indian restaurant in Toronto. This analysis will be
+a comprehensive guide to start or expand restaurants targeting the Indian
+crowd. </span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span lang=EN-US>2. Freelancer who loves to
+have their own restaurant as a side business. This analysis will give an idea,
+how beneficial it is to open a restaurant and what are the pros and cons of
+this business. </span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span lang=EN-US>3. Indian crowd who wants
+to find neighborhoods with lots of option for Indian restaurants. 4. Business
+Analyst or Data Scientists, who wish to analyze the<b> </b>neighborhoods of
+Toronto using Exploratory Data Analysis and other statistical &amp; machine
+learning techniques to obtain all the necessary data, perform some operations
+on it and, finally be able to tell a story out of it. </span></p>
+
+<p class=MsoListParagraphCxSpMiddle><b><span lang=EN-US> </span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:0cm'><b><span
+lang=EN-US style='font-size:18.0pt;line-height:107%'>2. Data acquisition and
+cleaning: </span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:0cm'><b><span
+lang=EN-US style='font-size:14.0pt;line-height:107%'>2.1 Data Sources </span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle><span lang=EN-US>a) I’m using “List of
+Postal code of Canada: M” (</span><a
+href="https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M"><span
+lang=EN-US>https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M</span></a><span
+lang=EN-US>) wiki page to get all the information about the neighborhoods
+present in Toronto. This page has the postal code, borough &amp; the name of
+all the neighborhoods present in Toronto. </span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span lang=EN-US>b) Then I’m using “</span><a
+href="https://cocl.us/Geospatial_data"><span lang=EN-US>https://cocl.us/Geospatial_data</span></a><span
+lang=EN-US>” csv file to get all the geographical coordinates of the
+neighborhoods. </span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span lang=EN-US>c) To get information
+about the distribution of population by their ethnicity I’m using “Demographics
+of Toronto” </span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span lang=EN-US>(</span><a
+href="https://en.m.wikipedia.org/wiki/Demographics_of_Toronto%23Ethnic_diversity"><span
+lang=EN-US>https://en.m.wikipedia.org/wiki/Demographics_of_Toronto#Ethnic_diversity</span></a><span
+lang=EN-US>) wiki page. Using this page I’m going to identify the neighborhoods
+which are densely populated with Indians as it might be helpful in identifying
+the suitable neighborhood to open a new Indian restaurant. </span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span lang=EN-US>d) To get location and
+other information about various venues in Toronto I’m using Foursquare’s
+explore API. Using the Foursquare’s explore API (which gives venues
+recommendations), I’m fetching details about the venues up present in Toronto
+and collected their names, categories and locations (latitude and longitude). </span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span lang=EN-US>From Foursquare API (</span><a
+href="https://developer.foursquare.com/docs"><span lang=EN-US>https://developer.foursquare.com/docs</span></a><span
+lang=EN-US>), I retrieved the following for each venue: </span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span lang=EN-US>• <b>Name</b>: The name of
+the venue. </span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span lang=EN-US>• <b>Category</b>: The
+category type as defined by the API. </span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span lang=EN-US>• <b>Latitude</b>: The
+latitude value of the venue. </span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span lang=EN-US>• <b>Longitude</b>: The
+longitude value of the venue. </span></p>
+
+<p class=MsoListParagraphCxSpMiddle><b><span lang=EN-US> </span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:0cm'><b><span
+lang=EN-US style='font-size:14.0pt;line-height:107%'>2.2 Data Cleaning </span></b></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:0cm'><b><span lang=EN-US>a)
+Scraping Toronto Neighborhoods Table from Wikipedia </span></b></p>
+
+<p class=MsoNormal><span lang=EN-US>Scraped the following Wikipedia page, “<b>List
+of Postal code of Canada: M</b>” in order to obtain the data about the Toronto
+&amp; the Neighborhoods in it. </span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US>Assumptions made to attain the below
+DataFrame: </span></u></b></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-left:54.0pt;text-indent:-18.0pt'><span
+lang=EN-US>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Dataframe will consist of three columns:
+PostalCode, Borough, and Neighborhood </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-indent:-18.0pt'><span
+lang=EN-US>b.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Only the cells that have an assigned borough
+will be processed. Borough that is not assigned are ignored. </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:54.0pt;text-indent:-18.0pt'><span
+lang=EN-US>c.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>More than one neighborhood can exist in one
+postal code area. For example, in the table on the Wikipedia page, you will
+notice that M5A is listed twice and has two neighborhoods: Harbourfront and
+Regent Park. These two rows will be combined into one row with the
+neighborhoods separated with a comma as shown in row 11 in the above table. </span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:54.0pt;text-indent:-18.0pt'><span
+lang=EN-US>d.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>If a cell has a borough but a Not assigned
+neighborhood, then the neighborhood will be the same as the borough. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>Note: Wikipedia&#8202;—&#8202;package is
+used to scrape the data from wiki. </span></p>
+
+<p class=MsoListParagraph><b><span lang=EN-US>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt'><img border=0 width=602
+height=199 id="Picture 1"
+src="RM-ExploringTorontoNeighborhoods_files/image001.jpg"></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>b) Adding geographical coordinates to the neighbourhoods </b></p>
+
+<p class=MsoNormal style='text-align:justify'>Next important step is adding the
+geographical coordinates to these neighbourhoods. To do so I’m extracting the
+data present in the Geospatial Data csv file and I’m combining it with the
+existing neighbourhood dataframe by merging them both based on the postal code.</p>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='text-align:justify'><img border=0 width=601
+height=233 id="Picture 3"
+src="RM-ExploringTorontoNeighborhoods_files/image002.jpg"></p>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='text-align:justify'>I’m renaming the columns to match
+the existing dataframe formed from ‘List of Postal code of Canada: M’ wiki
+page. After that I’m merging both the dataframe into one by merging on the
+postal code.</p>
+
+<p class=MsoNormal style='text-align:justify'><img border=0 width=601
+height=294 id="Picture 4"
+src="RM-ExploringTorontoNeighborhoods_files/image003.jpg"></p>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='text-align:justify'><b>c) Scrap the distribution of
+population from Wikipedia </b></p>
+
+<p class=MsoNormal style='text-align:justify'>Another factor that can help us
+in deciding which neighbourhood would be best option to open a restaurant is,
+the distribution of population based on the ethnic diversity for each
+neighbourhood. As this helps us in identifying the neighbourhoods which are
+densely populated with Indian crowd since that neighbourhood would be an ideal
+place to open an Indian restaurant. </p>
+
+<p class=MsoNormal style='text-align:justify'>Scraped the following Wikipedia
+page, “Demographics of Toronto” in order to obtain the data about the Toronto
+&amp; the Neighbourhoods in it. Compared to all the neighbourhoods in Toronto
+below given neighbourhoods only had considerable amount of Indian crowd. We are
+examining those neighbourhood’s population to identify the densely populated
+neighbourhoods with Indian population. </p>
+
+<p class=MsoNormal style='text-align:justify'>There were only six
+neighbourhoods in Toronto which Indian population spread across, so we are
+gathering the population, it’s percentage in each riding in those
+neighbourhoods</p>
+
+<p class=MsoNormal style='text-align:justify'><img border=0 width=601
+height=57 id="Picture 5"
+src="RM-ExploringTorontoNeighborhoods_files/image004.jpg"></p>
+
+<p class=MsoNormal style='text-align:justify'><img border=0 width=601
+height=220 id="Picture 7"
+src="RM-ExploringTorontoNeighborhoods_files/image005.jpg"></p>
+
+<p class=MsoNormal style='text-align:justify'><img border=0 width=601
+height=257 id="Picture 8"
+src="RM-ExploringTorontoNeighborhoods_files/image006.jpg"></p>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='text-align:justify'><b>d) Get location data using
+Foursquare </b></p>
+
+<p class=MsoNormal style='text-align:justify'>Foursquare API is very useful
+online application used my many developers &amp; other applications like Uber
+etc. In this project I have used it to retrieve information about the places
+present in the neighbourhoods of Toronto. The API returns a JSON file and we
+need to turn that into a data-frame. Here I’ve chosen 100 popular spots for
+each neighbourhood within a radius of 1km.</p>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='text-align:justify'><img border=0 width=602
+height=211 id="Picture 6"
+src="RM-ExploringTorontoNeighborhoods_files/image007.jpg"></p>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='text-align:justify'><b><u>3. Exploratory Data
+Analysis: </u></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b>3.1 Folium Library and Leaflet
+Map </b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'>Folium is a
+python library; I’m using it to draw an interactive leaflet map using
+coordinate data.</p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><img border=0
+width=601 height=299 id="Picture 17"
+src="RM-ExploringTorontoNeighborhoods_files/image008.jpg"></p>
+
+<p class=MsoNormal style='text-align:justify'><b>3.2 Relationship between
+neighbourhood and Indian Restaurant </b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'>First we will
+extract the Neighbourhood and Indian Restaurant column from the above Toronto
+dataframe for further analysis: </p>
+
+<p class=MsoNormal style='text-align:justify'> <img border=0 width=602
+height=380 id="Picture 18"
+src="RM-ExploringTorontoNeighborhoods_files/image009.jpg"></p>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='text-align:justify'>3.3 Relationship between Indian
+population and Indian Restaurant</p>
+
+<p class=MsoNormal style='text-align:justify'>First get the list of
+neighborhoods present in the riding using the wikipedia geography section for
+each riding. Altering the riding names to match the wikipedia page so we can
+retrieve the neighborhoods present in those ridings</p>
+
+<p class=MsoNormal style='text-align:justify'><img border=0 width=602
+height=447 id="Picture 19"
+src="RM-ExploringTorontoNeighborhoods_files/image010.jpg"></p>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='text-align:justify'>4. Predictive Modelling: </p>
+
+<p class=MsoNormal style='text-align:justify'>4.1 Clustering Neighbourhoods of
+Toronto: </p>
+
+<p class=MsoNormal style='text-align:justify'>First step in K-means clustering
+is to identify best K value meaning the number of clusters in a given dataset.
+To do so we are going to use the elbow method on the Toronto dataset with
+Indian restaurant percentage. </p>
+
+<p class=MsoNormal style='text-align:justify'><img border=0 width=601
+height=489 id="Picture 9"
+src="RM-ExploringTorontoNeighborhoods_files/image011.jpg"></p>
+
+<p class=MsoNormal style='text-align:justify'><img border=0 width=601
+height=457 id="Picture 10"
+src="RM-ExploringTorontoNeighborhoods_files/image012.jpg"></p>
+
+<p class=MsoNormal style='text-align:justify'><img border=0 width=602
+height=330 id="Picture 11"
+src="RM-ExploringTorontoNeighborhoods_files/image013.jpg"></p>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='text-align:justify'><img border=0 width=602
+height=396 id="Picture 12"
+src="RM-ExploringTorontoNeighborhoods_files/image014.jpg"></p>
+
+<p class=MsoNormal style='text-align:justify'>4.2 Examine the clusters</p>
+
+<p class=MsoNormal style='text-align:justify'>We have total of 6 clusters such
+as 0,1,2,3,4,5. Let us examine one after the other.</p>
+
+<p class=MsoNormal style='text-align:justify'>Cluster 0 contains all the
+neighborhoods which has least number of Indian restaurants. It is shown in red
+color in the map</p>
+
+<p class=MsoNormal style='text-align:justify'><img border=0 width=602
+height=143 id="Picture 14"
+src="RM-ExploringTorontoNeighborhoods_files/image015.jpg"></p>
+
+<p class=MsoNormal style='text-align:justify'>Cluster 3 contains all the
+neighborhoods which is medium populated with Indian restaurants. It is shown in
+blue color in the map.</p>
+
+<p class=MsoNormal style='text-align:justify'><img border=0 width=601
+height=160 id="Picture 15"
+src="RM-ExploringTorontoNeighborhoods_files/image016.jpg"></p>
+
+<p class=MsoNormal style='text-align:justify'>Cluster 5 contains all the
+neighborhoods which is densely populated with Indian restaurants. It is shown
+in Orange color in the map</p>
+
+<p class=MsoNormal style='text-align:justify'><img border=0 width=601
+height=149 id="Picture 16"
+src="RM-ExploringTorontoNeighborhoods_files/image017.jpg"></p>
+
+<p class=MsoNormal style='text-align:justify'>5. Results and Discussion: </p>
+
+<p class=MsoNormal style='text-align:justify'>5.1 Results </p>
+
+<p class=MsoNormal style='text-align:justify'>We have reached the end of the
+analysis, in this section we will document all the findings from above
+clustering &amp; visualization of the dataset. In this project, we started off
+with the business problem of identifying a good neighbourhood to open a new
+Indian restaurant. To achieve that we looked into all the neighbourhoods in
+Toronto, analysed the Indian population in each neighbourhood &amp; number of
+Indian restaurants in those neighbourhoods to come to conclusion about which
+neighbourhood would be a better spot. We have used variety of data sources to
+set up a very realistic data-analysis scenario. We have found out that — </p>
+
+<p class=MsoNormal style='text-align:justify'>• In those 11 boroughs we
+identified that only Central Toronto, Downtown Toronto, East Toronto, East
+York, North York &amp; Scarborough boroughs have high amount of Indian restaurants
+with the help of Violin plots between Number of Indian restaurants in Borough
+of Toronto. </p>
+
+<p class=MsoNormal style='text-align:justify'>• In all the ridings,
+Scarborough-Guildwood, Scarborough-Rouge Park, Scarborough Centre, Scarborough
+North, Humber River-Black Creek, Don Valley East, Scarborough Southwest, Don
+Valley North &amp; Scarborough-Agincourt are the densely populated with Indian
+crowd ridings. </p>
+
+<p class=MsoNormal style='text-align:justify'>• With the help of clusters
+examining &amp; violin plots looks like Downtown Toronto, Central Toronto, East
+York are already densely populated with Indian restaurants. So it is better
+idea to leave those boroughs out and consider only Scarborough, East Toronto
+&amp; North York for the new restaurant’s location. </p>
+
+<p class=MsoNormal style='text-align:justify'>• After careful consideration it
+is a good idea to open a new Indian restaurant in Scarborough borough since it
+has high number of Indian population which gives a higher number of customers
+possibility and lower competition since very less Indian restaurants in the
+neighbourhoods. </p>
+
+<p class=MsoNormal style='text-align:justify'> </p>
+
+<p class=MsoNormal style='text-align:justify'>5.2 Discussion </p>
+
+<p class=MsoNormal style='text-align:justify'>According to this analysis,
+Scarborough borough will provide the least competition for the new upcoming
+Indian restaurant as there is very little Indian restaurants spread or no
+Indian restaurants in few neighbourhoods. Also looking at the population
+distribution looks like it is densely populated with Indian crowd which helps
+the new restaurant by providing high customer visit possibility. So, definitely
+this region could potentially be a perfect place for starting a quality Indian
+restaurants. Some of the drawbacks of this analysis are&#8202;—&#8202;the clustering
+is completely based only on data obtained from Foursquare API and the data
+about the Indian population distribution in each neighbourhood is also based on
+the 2016 census which is not up-to date. Thus there is huge gap of 3 years in
+the population distribution data. Even Though there are lots of areas where it
+can be improved yet this analysis has certainly provided us with some good
+insights, preliminary information on possibilities &amp; a head start into this
+business problem by setting the step stones properly. </p>
+
+<p class=MsoNormal style='text-align:justify'> </p>
+
+<p class=MsoNormal style='text-align:justify'>6. Conclusion: </p>
+
+<p class=MsoNormal style='text-align:justify'>Finally to conclude this project,
+We have got a chance to on a business problem like how a real like data
+scientists would do. We have used many python libraries to fetch the data , to
+manipulate the contents &amp; to analyse and visualize those datasets. We have
+made use of Foursquare API to explore the venues in neighbourhoods of Toronto,
+then get good amount of data from Wikipedia which we scraped with help of
+Wikipedia python library and visualized using various plots present in seaborn &amp;
+matplotlib. We also applied machine learning technique to predict the output
+given the data and used Folium to visualize it on a map. </p>
+
+<p class=MsoNormal style='text-align:justify'>Some of the drawbacks or areas of
+improvements shows us that this analysis can be further improved with the help
+of more data and different machine learning technique. Similarly we can use
+this project to analysis any scenario such as opening a different cuisine
+restaurant or opening of a new gym and etc. Hopefully, this project helps acts
+as initial guidance to take more complex real-life challenges using
+data-science.</p>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>
